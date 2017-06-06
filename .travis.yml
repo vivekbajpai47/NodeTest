@@ -9,8 +9,7 @@ node_js:
 # please update this section to your needs!
 notifications:
   irc: "irc.freenode.org#travis"
-
- deploy:
+deploy:
    edge: true
    provider: bluemixcloudfoundry
    username: vivek_bajpai@persistent.co.in

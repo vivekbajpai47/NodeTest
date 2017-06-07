@@ -3,10 +3,10 @@ applications:
   memory: 512M
   instances: 1
   domain: au-syd.mybluemix.net
-  name: vivek-app1
-  host: vivek-app1
+  name: NodeTest
+  host: NodeTest
   disk_quota: 1024M
   services:
   - availability-monitoring-auto
-  - vivek-app1-cloudantNoSQLDB
+  - NodeTest-cloudantNoSQLDB
   buildpack: nodejs-buildpack

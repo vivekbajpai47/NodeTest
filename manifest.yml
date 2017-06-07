@@ -1,12 +1,7 @@
 applications:
-- path: .
-  memory: 512M
-  instances: 1
-  domain: au-syd.mybluemix.net
-  name: NodeTest
+- name: NodeTest
+  random-route: true
+  memory: 64M
   host: NodeTest
-  disk_quota: 1024M
-  services:
-  - availability-monitoring-auto
-  - NodeTest-cloudantNoSQLDB
-  buildpack: nodejs-buildpack
+  buildpack: staticfile_buildpack
+

@@ -1,7 +1,7 @@
 applications:
-- name: NodeTest
+- name: NodeTest-1
   random-route: true
   memory: 64M
-  host: NodeTest
+  host: NodeTest-1
   buildpack: staticfile_buildpack
 

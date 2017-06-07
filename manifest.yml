@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: au-syd.mybluemix.net
+  name: vivek-app1
+  host: vivek-app1
+  disk_quota: 1024M
+  services:
+  - availability-monitoring-auto
+  - vivek-app1-cloudantNoSQLDB
+  buildpack: nodejs-buildpack

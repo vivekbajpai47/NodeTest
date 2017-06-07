@@ -15,6 +15,7 @@ deploy:
    username: vivek_bajpai@persistent.co.in
    password: Cisco@231
    organization: vivek_persistent
+   region: au-syd
    space: NodeTest
    manifest: manifest-prod.yml
    on:
